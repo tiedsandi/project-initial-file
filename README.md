@@ -62,6 +62,10 @@ To run tests, run the following command
 What optimizations did you make in your code? E.g. refactors, performance
 improvements, accessibility
 
+## Appendix
+
+Any additional information goes here
+
 # Hi, I'm Fachran! 👋
 
 ## 🚀 About Me
@@ -76,7 +80,3 @@ Javascript, HTML, CSS, Figma, React.js, Redux, SASS, Bootstrap
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fachran-sandi.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fachransandi/)
-
-## Appendix
-
-Any additional information goes here
