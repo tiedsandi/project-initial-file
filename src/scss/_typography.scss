@@ -1,0 +1,51 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+
+@mixin heading-1($color) {
+	@include base-text(3rem, 700, $color);
+	//size, weight, color
+	@include base-text-advance(-1px, normal, 10px);
+	//letter spacing, letter height, word spacing
+}
+
+@mixin heading-2($color) {
+	@include base-text(3rem, 700, $color);
+}
+@mixin heading-3($color) {
+	@include base-text(3rem, 700, $color);
+}
+@mixin heading-4($color) {
+	@include base-text(3rem, 700, $color);
+}
+@mixin heading-5($color) {
+	@include base-text(3rem, 700, $color);
+}
+@mixin heading-6($color) {
+	@include base-text(3rem, 700, $color);
+}
+
+@mixin overline-1($color) {
+	@include base-text(1.4rem, 700, $color);
+	@include base-text-advance(normal, normal, normal);
+}
+@mixin overline-2($color) {
+	@include base-text(1.4rem, 700, $color);
+}
+
+@mixin paragraph-xl($color, $weight) {
+	@include base-text(1rem, $weight, $color);
+	@include base-text-advance(normal, normal, normal);
+}
+
+@mixin paragraph-l($color, $weight) {
+	@include base-text(1rem, $weight, $color);
+}
+@mixin paragraph-m($color, $weight) {
+	@include base-text(1rem, $weight, $color);
+}
+@mixin paragraph-s($color, $weight) {
+	@include base-text(1rem, $weight, $color);
+}
+@mixin paragraph-xs($color, $weight) {
+	@include base-text(1rem, $weight, $color);
+}
