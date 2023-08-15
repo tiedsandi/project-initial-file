@@ -1,0 +1,16 @@
+@use "../../scss/" as *;
+
+#Home {
+	color: $accent2;
+	font-size: 3rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.home {
+	&__font {
+		--fa-animation-duration: 3s;
+	}
+}
